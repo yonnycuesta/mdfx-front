@@ -33,7 +33,8 @@
                   </div>
                   <div class="col-12">
                     <p class="small mb-0">
-                      No tengo cuenta? <RouterLink to="/register">Crea una cuenta</RouterLink>
+                      No tengo cuenta?
+                      <RouterLink to="/register">Crea una cuenta</RouterLink>
                     </p>
                   </div>
                 </form>

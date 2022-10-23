@@ -5,6 +5,7 @@ import LoginComponent from "../components/LoginComponent.vue";
 import UserComponent from "../components/UserComponent.vue";
 import RegisterComponent from "../components/RegisterComponent.vue";
 import RoleComponent from "../components/RoleComponent.vue";
+import DoctorComponent from "../components/DoctorComponent.vue";
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -33,6 +34,11 @@ const router = createRouter({
       path: "/roles",
       name: "roles",
       component: RoleComponent,
+    },
+    {
+      path: "/doctors",
+      name: "doctor",
+      component: DoctorComponent,
     },
     {
       path: "/about",

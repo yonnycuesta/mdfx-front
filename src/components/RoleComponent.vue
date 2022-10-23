@@ -58,7 +58,7 @@
                       Editar
                     </button>
                     <button
-                      class="btn btn-danger"
+                      class="btn btn-danger ml-2"
                       v-on:click="deleteRole(role.id)"
                     >
                       Eliminar
