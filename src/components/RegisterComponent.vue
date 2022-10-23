@@ -98,8 +98,3 @@ export default {
   },
 };
 </script>
-
-<style>
-.register-one {
-}
-</style>

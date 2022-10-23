@@ -6,6 +6,8 @@ import UserComponent from "../components/UserComponent.vue";
 import RegisterComponent from "../components/RegisterComponent.vue";
 import RoleComponent from "../components/RoleComponent.vue";
 import DoctorComponent from "../components/DoctorComponent.vue";
+import ScheduleComponent from "../components/ScheduleComponent.vue";
+import SpecialityComponent from "../components/SpecialityComponent.vue";
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -37,8 +39,18 @@ const router = createRouter({
     },
     {
       path: "/doctors",
-      name: "doctor",
+      name: "doctors",
       component: DoctorComponent,
+    },
+    {
+      path: "/schedules",
+      name: "schedules",
+      component: ScheduleComponent,
+    },
+    {
+      path: "/specialties",
+      name: "specialties",
+      component: SpecialityComponent,
     },
     {
       path: "/about",
